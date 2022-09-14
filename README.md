@@ -1,2 +1,2 @@
-# FAAN-GANG
-Group work for FAAN GANG
+# FAANG-GANG
+Group work for FAANG GANG

@@ -1,0 +1,27 @@
+## FAANG Gang project timeline 
+
+- Resources 
+  - Infromation 
+      - Waste from google earth or other sites.
+      - Static information. 
+      
+      
+  - Gather data
+    - Google 
+      - World-Nuclear.org
+      
+  
+  - Design 
+    - Front end
+      -Ideas  
+        - Timelapse of data.  
+        - Top three biggest sites and review history of those.
+        - Visualize a cutaway of the ground as the user scrolls.
+            - Show variance at levels where waste is disposed of. 
+      - Decide site layout. 
+      - Decide tools we will use to create designs.
+      - Block out where information will go.
+      
+      
+    - Back End
+      - Write code based off layouts. 

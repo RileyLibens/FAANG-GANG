@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+div.segment1 {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 1000px;
+  height: 200px;
+}
+
+div.segment2 {
+  position: absolute;
+  top: 3180px;
+  right: 0;
+  width: 950px;
+  height: 200px;
+}
+
+div.segment3 {
+  position: absolute;
+  top: 2180px;
+  right: 0;
+  width: 1000px;
+  height: 200px;
+}
+
+div.segment4 {
+  position: absolute;
+  top: 1080px;
+  right: 0;
+  width: 1000px;
+  height: 200px;
+}

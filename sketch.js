@@ -1,12 +1,12 @@
 var docHeight
 
 function setup() {
-  createCanvas(50, 2400);
+  createCanvas(50, 6000);
 }
 
 function draw() {
   imageSmoothingEnabled = true;
-  background(0,20,255);
+  background(255,255,255);
   strokeWeight(5);
   stroke(5);
   line(20, 20, 20, window.innerHeight - 20);
@@ -73,7 +73,7 @@ function createLink(divElement) {
   
     if (dist(mouseX,mouseY,20,scrollLocSeg+20)<40){
     console.log("mouse is over");
-  fill(255,0,255);
+  fill(0,0,0);
     noStroke();
   rectMode(CENTER);
   rect(20,scrollLocSeg+20,6,textWidth(divElement)+15);

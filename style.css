@@ -1,7 +1,70 @@
-html, body {
+body, html {
+  height: 100%;
   margin: 0;
-  padding: 0;
 }
+
+.mainImage {
+  background-image: url("Background.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  text-align: right;
+}
+
+header {
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px, 10%;
+}
+
+h1 {
+  background-color: rgb(31, 31, 31);
+  color: #f6ebf4;
+  text-align: left;
+  padding: 16px;
+  padding-left: 100px;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Lobster';
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  color: #f6ebf4;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 8%;
+  padding-top: 11px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+ul li a {
+  color: #f6ebf4;
+  padding: 4px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+ul li a:hover {
+  color: #6c55fa;
+}
+
 
 canvas {
   display: block;

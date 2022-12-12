@@ -1,67 +1,45 @@
-<html>
-<head>
-  <title>My Website</title>
-  <style>
-    body {
-      background-color: #F1F1F1;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    .main-content {
-      width: 800px;
-      margin: 50px auto;
-      background-color: white;
-      padding: 20px;
-      box-shadow: 0px 0px 10px #888888;
-    }
-    h1 {
-      font-size: 36px;
-      color: #444444;
-    }
-    p {
-      font-size: 18px;
-      color: #666666;
-      line-height: 1.5;
-    }
-    .cta {
-      font-size: 24px;
-      background-color: #0077CC;
-      color: white;
-      padding: 15px 40px;
-      border-radius: 4px;
-      margin-top: 20px;
-      text-decoration: none;
-    }
-    .cta:hover {
-      background-color: #006699;
-    }
-  </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
-  <script>
-    // Create a new p5.js sketch
-    function setup() {
-      // Set the size of the canvas
-      createCanvas(400, 400);
-    }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    
+    
+      <header>
+        <h1>FAANG GANG</h1>
+          <ul>
+            <li> <a href="#code">Sources</a> </li>
+            <li> <a href="https://github.com/RileyLibens/FAANG-GANG"> Github</a> </li>
+          </ul>
+      </header>
 
-    function draw() {
-      // Clear the canvas
-      clear();
-
-      // Set the fill color of the shape
-      fill(100);
-
-      // Draw a circle on the canvas
-      ellipse(width / 2, height / 2, 100, 100);
-    }
-  </script>
-</head>
-<body>
-  <div class="main-content">
-    <h1>Welcome to My Website</h1>
-    <p>We are a company that offers [Product/Service] to [Target Audience].</p>
-    <canvas></canvas>
-    <a href="https://www.website.com/home" class="cta">Enter the Website</a>
+    <div id = "contentWindow">
+      <div id = "mainPage">
+        <div id = "code">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+  <img src="https://i.imgur.com/kPdc9rB.png" class="left-image">
+  <div class="right-images">
+    <img src="https://i.imgur.com/orIRQGx.png" class="right-image">
+    <img src="https://i.imgur.com/zvuccG6.png" class="right-image">
+    <img src="https://i.imgur.com/63vAeNr.png" class="right-image">
+    <div id="bar"></div>
   </div>
-</body>
+</div>
+<div class="container2">
+<img src="https://i.imgur.com/2oBAExx.png" class="left-image2">
+<img src="https://i.imgur.com/MPGkX25.png" class="right-image2">
+    </div>
+  </body>
+    
 </html>

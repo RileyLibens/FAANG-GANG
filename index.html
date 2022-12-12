@@ -1,36 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    body {
+      background-color: #F1F1F1;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .main-content {
+      width: 800px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0px 0px 10px #888888;
+    }
+    h1 {
+      font-size: 36px;
+      color: #444444;
+    }
+    p {
+      font-size: 18px;
+      color: #666666;
+      line-height: 1.5;
+    }
+    .cta {
+      font-size: 24px;
+      background-color: #0077CC;
+      color: white;
+      padding: 15px 40px;
+      border-radius: 4px;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+    .cta:hover {
+      background-color: #006699;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+  <script>
+    // Create a new p5.js sketch
+    function setup() {
+      // Set the size of the canvas
+      createCanvas(400, 400);
+    }
 
-  </head>
-  <body>
-    <script src="sketch.js"></script>
-    
-    
-      <header>
-        <h1>FAANG GANG</h1>
-          <ul>
-            <li> <a href="#code">Sources</a> </li>
-            <li> <a href="https://github.com/RileyLibens/FAANG-GANG"> Github</a> </li>
-          </ul>
-      </header>
-      <img src="Background.png" style="width:100%;">
+    function draw() {
+      // Clear the canvas
+      clear();
 
-    <div id = "contentWindow">
-      <div id = "mainPage">
-        <div id = "code">
-        </div>
-      </div>
-    </div>
-       
-    <div class="segment1" id="Fact 1"><img src="https://i.imgur.com/5L6QGo1.png" style="width:200 px;height:300px;"></div>
-    <div class="segment2" id="Graphs"><img src="https://i.imgur.com/1bc2I0x.png" style="width:400 px;height:600px;"></div>
-    <div class="segment3" id="Fact 3"><img src="https://i.imgur.com/DUxPSLu.png" style="width:200 px;height:300px;"></div>
-    <div class="segment4" id="Fact 2"><img src="https://i.imgur.com/8hC3eDb.png" style="width:200 px;height:300px;"></div>
-    
-  </body>
+      // Set the fill color of the shape
+      fill(100);
+
+      // Draw a circle on the canvas
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+  </script>
+</head>
+<body>
+  <div class="main-content">
+    <h1>Welcome to My Website</h1>
+    <p>We are a company that offers [Product/Service] to [Target Audience].</p>
+    <canvas></canvas>
+    <a href="https://www.website.com/home" class="cta">Enter the Website</a>
+  </div>
+</body>
 </html>

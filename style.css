@@ -3,6 +3,11 @@ body, html {
   margin: 0;
 }
 
+canvas {
+  pointer-events: none;
+}
+
+
 .mainImage {
   background-image: url("Background.png");
   height: 100%; 
@@ -98,41 +103,59 @@ canvas {
   font-size: 1.5vw;
 }
 
-canvas {
-  display: block;
-  position: fixed;
-  top: 0px;
-  left: 0px;
+  .container {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+  }
+.container2 {
+    position: absolute;
+    top: calc(100% - 20px);
+    left: 0;
+    right: 0;
+    display: flex;
+  }
+  .left-image {
+    width: 55%;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .right-images {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+  }
+  .right-image {
+    width: 100%;
+    height: auto;
+  }
+  .right-image2 {
+    width: 49%;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .left-image2 {
+    width: 49%;
+    height: auto;
+    margin-left: 15px;
+  }
+
+
+#bar {
+  position: absolute;
+  top: calc(100% + 50px);
+  left: 0;
+  height: 25px;
+  width: 100%;
+  background-image: url("https://i.imgur.com/GkbtYrG.png");
+  background-repeat: repeat-x;
+  background-size: 35px 25px;
 }
 
-div.segment1 {
-  position: absolute;
-  top: 100px;
-  right: 850px;
-  width: 400px;
-  height: 200px;
-}
 
-div.segment2 {
-  position: absolute;
-  top: 1530px;
-  right: 300px;
-  width: 950px;
-  height: 200px;
-}
-
-div.segment3 {
-  position: absolute;
-  top: 1030px;
-  right: 250px;
-  width: 1000px;
-  height: 200px;
-}
-
-div.segment4 {
-  position: absolute;
-  top: 550px;
-  right: 250px;
-  width: 1000px;
-  height: 200px;
-}
